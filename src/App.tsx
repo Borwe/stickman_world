@@ -77,7 +77,7 @@ function App() {
   return (
     <>
     {startGameType!=""?
-      <button onClick={backScreen}>Back</button>:<h1>PEW PEW</h1>
+      <button onClick={backScreen}>Back</button>:<h1>STICK MAN WORLD</h1>
     }
     <h3>{playerName}</h3><br/>
     <ExitedBecause reason={exitCause}/>
